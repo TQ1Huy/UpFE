@@ -1,0 +1,31 @@
+/*```````````` HEADER SECTION CLOSE ```````````````````*/ /*~~~~~~ CONTAINER ~~~~~~~~~~~~~*/ /*promotion Banner */
+.promotion-banner {
+  background: url(../../images/black_transparent50.png) left top repeat;
+  bottom: 0;
+  padding: 15px 0;
+  width: 100%;
+  z-index: 10;
+}
+.promo-box {
+  float: left;
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/*``promotion banner close``*/ /* title */
+.title {
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #2f2f2f;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.title strong {
+  color: #f7544a;
+  font-weight: 300;
+}

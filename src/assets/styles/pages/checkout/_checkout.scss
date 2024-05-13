@@ -1,0 +1,98 @@
+/* checkout page sytle */
+.checkout-page {
+  float: left;
+  width: 100%;
+  position: relative;
+  clear: both;
+}
+.checkout-steps {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.checkout-steps .steps {
+  float: left;
+  width: 100%;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.checkout-steps .step-title {
+  float: left;
+  width: 100%;
+  padding: 15px 25px;
+  font-size: 14px;
+  margin: 0;
+  background: url(../../../images/down-arow-2.png) right 25px top 22px no-repeat;
+  text-transform: uppercase;
+  font-weight: 400;
+  cursor: pointer;
+}
+.checkout-steps .active .step-title {
+  background: url(../../../images/up-arow.png) right 25px top 22px no-repeat;
+}
+.checkout-steps .disable .step-title {
+  cursor: default;
+}
+.step-description {
+  float: left;
+  width: 100%;
+  border-top: 1px solid #cccccc;
+  padding: 30px;
+}
+.input-radio {
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+}
+.step-description h5 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.new-customer label {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+.new-customer label .text {
+  float: left;
+  padding-top: 2px;
+}
+.new-customer p.requir {
+  float: left;
+  padding: 25px 0 30px 0;
+}
+.form-row .input[type="text"],
+.form-row .input[type="email"],
+.form-row .input[type="password"],
+.form-row .input[type="tel"],
+.form-row .input[type="number"] {
+  width: 100%;
+  padding: 10px 10px 10px 100px;
+}
+.form-row .input[type="password"] {
+  padding-left: 120px;
+}
+.form-row .input[type="password"].cpass {
+  padding-left: 160px;
+}
+.form-row .lebel-abs {
+  left: 20px;
+  position: absolute;
+  top: 12px;
+}
+.forgoten {
+  padding: 10px 0 25px 0;
+  text-align: right;
+}
+.pass-wrap {
+  clear: both;
+  padding: 10px 0 30px 0;
+}
+.privacy {
+  padding: 10px 0;
+}

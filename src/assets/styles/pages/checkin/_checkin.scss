@@ -1,0 +1,127 @@
+/*left bar */
+.leftbar {
+  position: relative;
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #e1e1e1;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  clear: both;
+}
+.leftbar .title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/*!~~~~~~~~~~~~ SPECIAL DEAL ~~~~~~~~~~~~~*/
+.special-deal {
+}
+.special-deal img {
+  display: block;
+  margin: 0 auto;
+}
+.special-item {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.special-item:last-child {
+  margin-bottom: 5px;
+}
+.special-item .product-image {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.special-item .product-info {
+  float: right;
+  width: 65%;
+}
+.special-item .price {
+  color: #ff3e3e;
+  font-size: 16px;
+}
+.rating .fa {
+  margin: 1px;
+}
+/*!~~~~~~~~~~~~ PRODUCT TAGS ~~~~~~~~~~~~~*/
+.product-tag {
+}
+.product-tag ul {
+  position: relative;
+}
+.product-tag ul li {
+  float: left;
+  display: inline;
+  margin: 0 5px 5px 0;
+}
+.product-tag ul li a {
+  background: #fff;
+  color: #2f2f2f;
+  padding: 5px 15px;
+  border: 1px solid #cccccc;
+  display: block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.product-tag ul li a:hover {
+  color: #f7544a;
+  border-color: #f7544a;
+}
+/* News letter */
+.get-newsletter {
+}
+.get-newsletter input.email {
+  display: block;
+  border: 1px solid #cccccc;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.get-newsletter input.submit {
+  display: block;
+  border: none;
+  background: #f7544a;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+/*Bacebook Likebox */
+.likebutton {
+  float: left;
+  margin-right: 20px;
+}
+.fbl-box ul {
+  position: relative;
+}
+.fbl-box ul li {
+  margin: 5px;
+  display: inline-block;
+}
+.fbl-box ul li a {
+  float: left;
+  width: 40px;
+  height: 34px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.fbplug {
+  display: block;
+  margin-top: 5px;
+}
+.fbplug span {
+  margin-right: 5px;
+}
+.form_login {
+  background: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTZ8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHx8fDE3MDQ5MzI0Njd8MA&ixlib=rb-4.0.3")
+    no-repeat;
+}
+.form_login1 {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}

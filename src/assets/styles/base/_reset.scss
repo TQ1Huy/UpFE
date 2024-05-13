@@ -1,0 +1,359 @@
+/* CSS RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1;
+  background: #f5f5f5;
+  color: #434343;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Changable Global Styles -------------------------------------------------- */
+*::-moz-selection {
+  color: #ff9e98;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 14px;
+}
+p {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  line-height: 18px;
+}
+.light {
+  font-weight: 300;
+}
+.regular,
+strong {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.bold {
+  font-weight: 700;
+}
+a {
+  transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+}
+a:focus {
+  outline: medium none;
+  outline-offset: 0;
+}
+a:hover,
+a:focus,
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+ul:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+li {
+  line-height: 18px;
+  transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*~~ text align style ~~*/
+.center-text {
+  text-align: center;
+}
+.left-text {
+  text-align: left;
+}
+.right-text {
+  text-align: right;
+}
+/*~~ position ~~*/
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+/*Color*/
+.light-red {
+  color: #fe5252;
+}
+.gray {
+  color: #ccc;
+}
+.red {
+  color: #ff3a3a;
+}
+.red-bg {
+  background: #ff3a3a;
+}
+.yellow-bg {
+  background: #fcff19;
+}
+.black-bg {
+  background: #353535;
+}
+.gray-bg {
+  background: #ccc;
+}
+.pink-bg {
+  background: #ff26cf;
+}
+.dkpink-bg {
+  background: #5c2c5d;
+}
+.chocolate-bg {
+  background: #520000;
+}
+.chocolatelight-bg {
+  background: #9a5b3b;
+}
+.biscuit-bg {
+  background: #8e665e;
+}
+.lightgreen-bg {
+  background: #84e25a;
+}
+.extra-lightgreen-bg {
+  background: #b1cb5e;
+}
+.off-white-bg {
+  background: #b1cb5e;
+}
+.orange-bg {
+  background: #ff5313;
+}
+/*Transition Animation*/
+a,
+button,
+.button,
+.products,
+.name,
+.price,
+.fa,
+.sequence-next,
+.sequence-prev {
+  -webkit-transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  /* linear */
+}
+/*form element */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+textarea {
+  background: #fff;
+  padding: 8px 15px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-color: #ff8e87;
+  outline: none;
+}
+/* button */
+.button,
+button {
+  background: #fff;
+  padding: 10px 20px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  -webkit-border-radius: 10px;
+  border-radius: 100px;
+  outline: none;
+}
+.button:hover,
+button:hover {
+  border: 1px solid #fe5252;
+  color: #fe5252;
+}
+.add-cart {
+}
+.compare,
+.wishlist {
+  padding: 9px 10px;
+  font-size: 18px;
+}
+/* End of global estyle-------------------------------------------------- */ /* customizable Style */
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+.header,
+.footer,
+.container_fullwidth {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.container_fullwidth {
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
